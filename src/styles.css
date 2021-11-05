@@ -5,7 +5,7 @@
 
 .App h1 {
   font-size: 28px;
-  color: blueviolet;
+  color: #66ff66;
 }
 
 .App h2 {
@@ -14,4 +14,10 @@
 
 .weather-response {
   display: inline-block;
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    width: 100%;
+  }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherApp from "./WeatherApp";
+import Loader from "react-loader-spinner";
 import "./styles.css";
 
 function App() {
@@ -10,6 +11,13 @@ function App() {
         <h2>The weather always change!!!</h2>
       </header>
       <body>
+        <Loader
+          type="ThreeDots"
+          color="#66FF66"
+          height={100}
+          width={100}
+          timeout={3000} //3 secs
+        />
         <WeatherApp />
       </body>
     </div>
