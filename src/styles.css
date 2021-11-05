@@ -1,0 +1,17 @@
+.App {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 28px;
+  color: blueviolet;
+}
+
+.App h2 {
+  font-weight: 1.5rem;
+}
+
+.weather-response {
+  display: inline-block;
+}
